@@ -1,0 +1,21 @@
+.movieContiner{
+    padding-top: 70px;
+    display: flex;
+}
+
+.movie_img{
+    height: 85vh;
+    margin: 0 20px;
+}
+
+.movie_detail{
+    margin: 0 10px;
+    color: white;
+    flex: 1;
+}
+
+@media screen and (max-width: 650px){
+    .movieContiner{
+        flex-direction: column;
+    }
+}

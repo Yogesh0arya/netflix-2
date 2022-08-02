@@ -1,0 +1,29 @@
+
+.container {
+    padding: 2% 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #EAEAEA;
+}
+
+.header img {
+    width: 50%;
+}
+
+.instructions {
+    width: 100%;
+}
+
+.title {
+    font-size: 2rem;
+    font-weight: 100;
+}
